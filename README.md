@@ -9,7 +9,7 @@
 - This program has two versions, which are the following:
 
     - Version Alpha: This version will only utilize the datasets freely provided by IMDb through "https://datasets.imdbws.com"
-        - Sadly these datasets do not contain "Box Office Sales", thus it will be used as a Classifier that will predict the genre of a movie based on the available parameters in the datasets provided.
+        - Sadly these datasets do not contain "Box Office Sales", thus it will be used as a Classifier that will predict the rating of a movie based on the available parameters in the datasets provided.
 
     - Version Beta: This version will not only utilize the datasets freely provided by IMDb, but will also scrape data from "https://www.imdb.com/" through a python module called "imdb".
         - This version will have access to all the parameters required to create a Neural Network capable of predicting "Box Office Sales" based on the variables available.
